@@ -1,4 +1,4 @@
-[OOPS playlist](https://youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&si=AbQjrqcNvH3Ga6Xe)
+[OOPS YT playlist by Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&si=AbQjrqcNvH3Ga6Xe)
 
 # Object-Oriented Programming (OOP) — Python Notes
 OOP is a programming paradigm that logically groups related data (attributes) and the functions (methods) that operate on that data into objects, making code easier to reuse, extend, and maintain.Example:
