@@ -1,5 +1,15 @@
 # Phase 6: File Handling — Notes
 
+`with` is a keyword in Python used to manage resources automatically, such as *files*. It ensures that a file is closed when execution leaves the block, even if an error occurs.
+```python
+with open("data.txt", "r") as f:    
+    data = f.read()
+```
+- open() opens the file.
+- as f assigns the file object to the variable f.
+- f.read() reads the file's contents.
+- After the with block ends, Python automatically closes the file.
+
 ### File Modes
 Specify how a file is opened using the second argument of `open()`.
 ```python
@@ -78,3 +88,17 @@ with open("file.json", "w") as f:
 json.loads(json_string)     # JSON string -> Python object
 json.dumps(python_object)   # Python object -> JSON string
 ```
+
+### Methods of the file object returned by open().
+
+| Method | Description |
+|---|---|
+| `f.read()` | Reads the file's contents. |
+| `f.readline()` | Reads one line from the file. |
+| `f.readlines()` | Reads all lines and returns them as a list. |
+| `f.write(data)` | Writes data to the file. |
+| `f.writelines(lines)` | Writes multiple strings to the file. |
+| `f.close()` | Closes the file. |
+| `f.seek(position)` | Moves the file pointer to a specified position. |
+| `f.tell()` | Returns the current file pointer position. |
+| `f.flush()` | Flushes buffered data to the underlying stream. |
